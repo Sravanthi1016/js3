@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project P</title>
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        body{
+            width:600px;
+            height:100vh;
+            background-image:url("https://imgeng.jagran.com/images/2023/jul/kalki1690194874462.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .container{
+        display:flex;
+        width: 80vw;
+        padding: 60px;
+        justify-content: center;
+    }
+    
+    </style>
+</head>
+<body>
+    <h1>KALKI</h1>
+    <div class="container">
+        
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center g-3 mb-3">
+                <div onclick="RedBg()" class="card" style="width: 18rem;">
+                    <img src="Prabhas.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Prabhas</h5>
+                        <p class="card-text">Prabhas is an Indian actor who predominantly works in Telugu cinema. One of the highest-paid actors in Indian cinema. Prabhas was born into a Telugu family to late U. Suryanarayana Raju and Siva Kumari. His family hails from Mogalthur, near Bhimavaram of West Godavari district, Andhra Pradesh. He is the youngest of three children and is the nephew of Telugu actor Uppalapati Krishnam Raju</p>
+                        <button class="btn btn-dark">Prabhas</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center g-3 mb-3">
+                <div onclick="BlueBg()" class="card" style="width: 18rem;">
+                    <img src="Deepika.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Deepika Padukone</h5>
+                        <p class="card-text">Deepika Padukone (pronounced [d̪iːpɪkaː pəɖʊkoːɳeː]; born 5 January 1986) is an Indian actress who works predominantly in Hindi films. She is India's highest-paid actress, as of 2023,[1][2] and her accolades include three Filmfare Awards. She features in listings of the nation's most popular personalities; Time named her one of the 100 most influential people in the world in 2018.</p>
+                        <button class="btn btn-dark">Deepika Padukone</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center g-3 mb-3">
+                <div onclick="PinkBg()" class="card" style="width: 18rem;">
+                    <img src="naag aswin.jpeg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nag Ashwin</h5>
+                        <p class="card-text">Nag Ashwin was born in a Telugu family to Jayaram and Jayanthi Reddy in Hyderabad, Telangana, both of whom are doctors. He has a younger sister, Nikhila Reddy, who is also a doctor.[8] He studied in Hyderabad Public School and received bachelor's degree in Mass Communication from Manipal Institute of Communication.[9] He then did a Film Direction course at the New York Film Academy.
+                        </p>
+                        <button onclick="PinkBg()" class="btn btn-dark">Nag Aswin</button>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+    
+    <script>
+        function PinkBg() {
+            document.body.style.backgroundColor = "yellow";
+            document.body.style.backgroundImage = 'linear-gradient(0deg, #FFDEE9 0%, #B5FFBD 100%)';
+        }
+        function RedBg() {
+            document.body.style.backgroundColor="green";
+            document.body.style.backgroundImage = 'linear-gradient(45deg, #fbbb61 0%, #ff5a5d 100%)';
+        }
+        function BlueBg() {
+            document.body.style.backgroundColor = '#85FFBD';
+            document.body.style.backgroundImage = 'linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%)';
+        }
+    </script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+     crossorigin="anonymous"></script>
+   
+</body>
+</html>
