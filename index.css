@@ -1,0 +1,29 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container img{
+    width: 200px;
+    
+}
+.card-text{
+    color: #0acf1a;
+}
+
+
+body {
+    
+    margin: 0px;
+    width: 50%;
+    height: 55%;
+    
+}
+
+h1 {
+    font-family: monospace;
+    text-align:right;
+    margin: 30px;
+    color: #0acf1a;
+}
